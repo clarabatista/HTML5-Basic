@@ -2,25 +2,31 @@
 <html>
     <head>
         <meta charset="UTF-8">   
-        <title> Formulário simples </title>
-
+        <title> Teste de elementos </title>
+        <link rel="shortcut icon" href="./estrela.ico" type="image/x-icon">
         <link rel="stylesheet" href="./style.css">
 
     </head>
 
     <body>
-        <h1>Formulário de contato</h1>
-        <p>Testando as tags de formulário</p>
-        <br>
-        
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <input type="submit" value="Enviar">
+        <h1>Formulário</h1>
+        <p>Esse formulário serve para demonstrar interesse nas aulas da tabela abaixo</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Matéria</th>
+                    <th>Professor</th>
+                    <th>Dificuldade</th>
+                    <th>Período</th>
+                </tr>
+            </thead>
+        </table>
+
+        <form action="/" class="form">
+            <input type="text" placeholder="Nome" class="name" required>
+            <input type="email" placeholder="exemplo@email.com" class="email" required>
+            <button type="submit" class="button">Demonstrar interesse</button>
         </form>
 
     </body>
